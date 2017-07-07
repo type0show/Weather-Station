@@ -1,0 +1,44 @@
+c:\users\lap-ndm\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\Interop.MetasysSystemSecureDataAccess.dll
+c:\users\lap-ndm\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\Interop.MSHeaderHandler.dll
+c:\users\lap-ndm\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\Interop.MSSOAPLib30.dll
+c:\users\lap-ndm\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\Interop.MSXML2.dll
+c:\users\lap-ndm\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.vbproj.ResolveComReference.cache
+c:\users\lap-ndm\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.Resources.resources
+c:\users\lap-ndm\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.vbproj.GenerateResource.Cache
+c:\users\lap-ndm\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\AOSS.exe.config
+c:\users\lap-ndm\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\AOSS.exe
+c:\users\lap-ndm\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\AOSS.pdb
+c:\users\lap-ndm\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\AOSS.xml
+c:\users\lap-ndm\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\AOSS.exe
+c:\users\lap-ndm\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\AOSS.xml
+c:\users\lap-ndm\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\AOSS.pdb
+C:\Users\LAP-NDM\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.vbprojResolveAssemblyReference.cache
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\AOSS.exe.config
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\Interop.MetasysSystemSecureDataAccess.dll
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\Interop.MSHeaderHandler.dll
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\Interop.MSSOAPLib30.dll
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\Interop.MSXML2.dll
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.vbproj.ResolveComReference.cache
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\AOSS.exe
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\AOSS.xml
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\AOSS.pdb
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\AOSS.exe
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\AOSS.pdb
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\AOSS.xml
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.Resources.resources
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.vbproj.GenerateResource.Cache
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\Weather Station\ConsoleApplication2\bin\Debug\AOSS.exe.config
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\Weather Station\ConsoleApplication2\obj\Debug\Interop.MetasysSystemSecureDataAccess.dll
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\Weather Station\ConsoleApplication2\obj\Debug\Interop.MSHeaderHandler.dll
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\Weather Station\ConsoleApplication2\obj\Debug\Interop.MSSOAPLib30.dll
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\Weather Station\ConsoleApplication2\obj\Debug\Interop.MSXML2.dll
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\Weather Station\ConsoleApplication2\obj\Debug\ConsoleApplication2.vbproj.ResolveComReference.cache
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\Weather Station\ConsoleApplication2\obj\Debug\AOSS.exe
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\Weather Station\ConsoleApplication2\obj\Debug\AOSS.xml
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\Weather Station\ConsoleApplication2\obj\Debug\AOSS.pdb
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\Weather Station\ConsoleApplication2\bin\Debug\AOSS.exe
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\Weather Station\ConsoleApplication2\bin\Debug\AOSS.pdb
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\Weather Station\ConsoleApplication2\bin\Debug\AOSS.xml
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\Weather Station\ConsoleApplication2\obj\Debug\ConsoleApplication2.Resources.resources
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\Weather Station\ConsoleApplication2\obj\Debug\ConsoleApplication2.vbproj.GenerateResource.Cache
+C:\Users\DDC-WK24\Documents\Visual Studio 2015\Projects\Weather Station\ConsoleApplication2\obj\Debug\ConsoleApplication2.vbprojResolveAssemblyReference.cache
