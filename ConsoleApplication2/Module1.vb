@@ -128,6 +128,7 @@ Module Module1
                 WritePresentValue(weatherFolderRef + hourName, hour)
                 WritePresentValue(weatherFolderRef + minuteName, minute)
 
+
                 'delay next update until specified delay
                 'NOTE: AOSS updates their website every ~5 seconds
                 'NOTE: this update delay is not the guarenteed update interval, since the establishing the connection to 
