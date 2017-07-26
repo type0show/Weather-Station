@@ -54,6 +54,8 @@ Module Module1
         Dim relHumidityName As String = "HUMIDITY"
         Dim alarmName As String = "WEBLINK-ALM"
         Dim altimeterName As String = "ALTIMETER"
+        Dim hourName As String = "HOUR"
+        Dim minuteName As String = "MINUTE"
 
         'value is delay in seconds
         'NOTE: should be >5 to ensure each update is unique since AOSS updates website every 5 seconds
@@ -99,6 +101,8 @@ Module Module1
                 'NOTE: the value of the ConversionFactor variables are at the top of the file
                 '      along with what units they are converting 
                 Dim temperature As Double = CelciusToFahrenheitConversion(weatherData(2))
+                Dim hour As Double = ParseHour(weatherData(1))
+                Dim minute As Double = ParseMinute(weatherData(1))
                 Dim dewPoint As Double = CelciusToFahrenheitConversion(weatherData(4))
                 Dim windDirection As Double = weatherData(6)
                 Dim windSpeed As Double = VelocityConversionFactor * weatherData(5)
@@ -200,6 +204,7 @@ Module Module1
     ' Date: 7/5/2017
     ' Reference: https://www.youtube.com/watch?v=rWS2mUZfd1s
 
+    ' This function uses a iterative method that approximates the wet-bulb temperatures
     Function CalculateWetBulbTemp(Temp As Double, Td As Double, pressure As Double) As Double
 
         Dim Tw_Td_avg, es_Tw_Td_avg, Delta, Twet, wetBulbTemperature_f As Double
@@ -215,10 +220,31 @@ Module Module1
             Twet = (PsychrometricConstant * Temp + Delta * Td) / (Delta + PsychrometricConstant)
         Next
 
+        ' Temperature return in degrees Fahrenheit
         wetBulbTemperature_f = CelciusToFahrenheitConversion(Twet)
         Return wetBulbTemperature_f
     End Function
 
+    ' Author: Franklin Chen
+    ' Date: 7/5/2017
+    Function ParseHour(time As String) As Double
+
+        Dim timeComponents As String() = Split(time, ":")
+        Dim hour As Double = timeComponents(0)
+
+        Return hour
+
+    End Function
+    ' Author: Franklin Chen
+    ' Date: 7/5/2017
+    Function ParseMinute(time As String) As Double
+
+        Dim timeComponents As String() = Split(time, ":")
+        Dim minute As Double = timeComponents(0)
+
+        Return minute
+
+    End Function
 
     Function CelciusToFahrenheitConversion(temp As Double) As Double
         Return ((9.0 / 5) * temp) + 32
