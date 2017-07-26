@@ -228,21 +228,21 @@ Module Module1
     End Function
 
     ' Author: Franklin Chen
-    ' Date: 7/5/2017
+    ' Date: 7/26/2017
     Function ParseHour(time As String) As Double
 
         Dim timeComponents As String() = Split(time, ":")
-        Dim hour As Double = timeComponents(0)
+        Dim hour As Double = timeComponents(0) - 5
 
         Return hour
 
     End Function
     ' Author: Franklin Chen
-    ' Date: 7/5/2017
+    ' Date: 7/26/2017
     Function ParseMinute(time As String) As Double
 
         Dim timeComponents As String() = Split(time, ":")
-        Dim minute As Double = timeComponents(0)
+        Dim minute As Double = timeComponents(1)
 
         Return minute
 
