@@ -60,7 +60,7 @@ Module Module1
         'value is delay in seconds
         'NOTE: should be >5 to ensure each update is unique since AOSS updates website every 5 seconds
         'NOTE: In case we are sending too many requests to the AOSS website, increase the updateDelay 
-        Dim updateDelay As Int32 = 20
+        Dim updateDelay As Int32 = 60
 
         JCISecurity = New MSSDAAPI
         result = JCISecurity.LoginUser(siteIP, userName, password, retStatus)
