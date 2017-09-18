@@ -101,14 +101,21 @@ Module Module1
                 'NOTE: the value of the ConversionFactor variables are at the top of the file
                 '      along with what units they are converting 
                 Dim temperature As Double = CelciusToFahrenheitConversion(weatherData(2))
+
+                ' Dim hour As Double = ParseHour(weatherData(1))
+                ' Dim minute As Double = ParseMinute(weatherData(1))
+
+
                 Dim hour As Double = ParseHour(weatherData(1))
                 Dim minute As Double = ParseMinute(weatherData(1))
+
+
                 Dim dewPoint As Double = CelciusToFahrenheitConversion(weatherData(4))
                 Dim windDirection As Double = weatherData(6)
                 Dim windSpeed As Double = VelocityConversionFactor * weatherData(5)
                 Dim pressure As Double = PressureConversionFactor * weatherData(8)
-                Dim solarFlux As Double = weatherData(10)
-                Dim precipitation As Double = LengthConversionFactor * weatherData(7)
+                'Dim solarFlux As Double = weatherData(10)
+                'Dim precipitation As Double = LengthConversionFactor * weatherData(7)
                 Dim relativeHumidity As Double = weatherData(3)
                 Dim altimeter As Double = weatherData(9)
                 Dim wetBulbTemperature As Double = CalculateWetBulbTemp(weatherData(2), weatherData(4), weatherData(8))
@@ -120,8 +127,8 @@ Module Module1
                 WritePresentValue(weatherFolderRef + windDirectionName, windDirection)
                 WritePresentValue(weatherFolderRef + windSpeedName, windSpeed)
                 WritePresentValue(weatherFolderRef + pressureName, pressure)
-                WritePresentValue(weatherFolderRef + solarFluxName, solarFlux)
-                WritePresentValue(weatherFolderRef + precipitationName, precipitation)
+                ' WritePresentValue(weatherFolderRef + solarFluxName, solarFlux)
+                ' WritePresentValue(weatherFolderRef + precipitationName, precipitation)
                 WritePresentValue(weatherFolderRef + relHumidityName, relativeHumidity)
                 WritePresentValue(weatherFolderRef + altimeterName, altimeter)
                 WritePresentValue(weatherFolderRef + alarmName, 0.0)
@@ -159,23 +166,23 @@ Module Module1
 
     End Sub
 
-    Function ReadPresentValue(itemReference As String) As Double
+    '   Function ReadPresentValue(itemReference As String) As Double
 
-        Dim stringValue As String
-        Dim readValue As Double
-        Dim reliability As String
-        Dim itemPriority As String
-        Dim status As Long
-        Dim retstatus As String
-        Dim currentTime As String
-
-        currentTime = GetCurrentDeviceTime()
-        status = JCISecurity.InitMethodAuthentication(currentTime, "ReadProperty", itemReference, retstatus)
-        On Error Resume Next
-        status = SoapClient.ReadProperty(itemReference, "Present Value", stringValue, readValue, reliability, itemPriority)
-        Return readValue
-
-    End Function
+    'Dim stringValue As String
+    'Dim readValue As Double
+    'Dim reliability As String
+    'Dim itemPriority As String
+    'Dim status As Long
+    'Dim retstatus As String
+    'Dim currentTime As String
+    '
+    '   currentTime = GetCurrentDeviceTime()
+    '  status = JCISecurity.InitMethodAuthentication(currentTime, "ReadProperty", itemReference, retstatus)
+    'On Error Resume Next
+    '   status = SoapClient.ReadProperty(itemReference, "Present Value", stringValue, readValue, reliability, itemPriority)
+    'Return readValue
+    '
+    'End Function
 
     Function GetCurrentDeviceTime() As String
 
@@ -230,20 +237,20 @@ Module Module1
 
     ' Author: Franklin Chen
     ' Date: 7/26/2017
-    Function ParseHour(time As String) As Double
+    Function ParseHour(time As String) As String
 
         Dim timeComponents As String() = Split(time, ":")
-        Dim hour As Double = timeComponents(0) - 5
+        Dim hour As String = timeComponents(0) - 5
 
         Return hour
 
     End Function
     ' Author: Franklin Chen
     ' Date: 7/26/2017
-    Function ParseMinute(time As String) As Double
+    Function ParseMinute(time As String) As String
 
         Dim timeComponents As String() = Split(time, ":")
-        Dim minute As Double = timeComponents(1)
+        Dim minute As String = timeComponents(1)
 
         Return minute
 
